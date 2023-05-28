@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/05056bd72c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <style>
+        .col {
+            display: flex;
+        }
+
+        #one {
+            width: 50%;
+        }
+
+        #two {
+            width: 50%;
+        }
+
+        /* input{ */
+        /* justify-content:end ; */
+        /* } */
+    </style>
+
+
+    <form>
+        <ul style="padding: 0%;">
+            <li style="display: flex;gap: 60rem;border:solid; background-color:azure;align-items: center;padding: 0%;">
+                <select style="background-color: azure;border:none;">
+                    <option value="#">Record</option>
+                    <option value="#">hi</option>
+                </select>
+
+                </h>
+                <p>View:<select>
+                        <option value="Review Order">Review Order</option>
+                        <option value="one">one</option>
+                        <option value="two">two</option>
+                    </select></p>
+            </li>
+        </ul>
+        <i class="fa-sharp fa-solid fa-arrow-down-arrow-up"></i>
+        <div style="display:inline-flex;gap: 55rem;align-items: center;">
+            <p style="color: #a5acb9;">*-indicate arequired field</p>
+            <h>
+                <button>OK</button>
+                <button>Delete</button>
+                <button>Cancle</button>
+            </h>
+        </div>
+        <hr>
+        <div class="col" style="text-align:right;">
+            <div id="one">
+                <label for="cus">Customer:</label>
+                <input id="cus" type="text" style="width:50%;"><br><br>
+                <label for="emp">Employee:</label>
+                <input id="emp" type="text" style="width: 50%;"><br><br>
+                <label for="ord">Order Date:</label>
+                <input id="ord" type="date" style="width: 50%;"><br><br>
+                <label for="req">Required Date:</label>
+                <input id="req" type="date" style="width: 50%;"><br><Br>
+                <label for="shi">Shipped Date:</label>
+                <input id="shi" type="date" style="width: 50%;"><br><br>
+            </div>
+            <div id="two">
+                <label for="add">Address:</label>
+                <input id="add" type="text" style="width: 50%;" placeholder="KTM,Nepal"><br><br>
+                <label for="cit">City:</label>
+                <input id="cit" type="text" style="width: 50%;" placeholder="kathmandu"><br><br>
+                <label for="reg">Region:</label>
+                <input id="reg" type="text" style="width: 50%;"><br><br>
+                <label for="pos">Postal Code:</label>
+                <input id="pos" type="text" style="width: 50%;"><br><br>
+                <label for="shipp">Shipped Country:</label>
+                <input id="shipp" type="text" style="width: 50%;"><br><br>
+            </div>
+        </div>
+
+        <div style="border: solid;">
+            <ul
+            style="border: solid; margin: 2px;background-color:lightgrey;display: flex;gap:2rem;padding: 2px;list-style: none;">
+            <li><input type="search"></li>
+                <li>New Order Details</li>
+                <li>Actions
+                    <select>
+                        <option>aaaa</option>
+                        <option>bbb</option>
+                    </select>
+                </li>
+
+            </ul>
+            <table style="width: 100%;">
+                <tr style="text-align: left;">
+                    <th>Product Name</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Discount</th>
+                    <th>Product Category Name</th>
+                    <th>Product suplier Company Name</th>
+                    <th>Extended Price</th>
+                </tr>
+                <tr>
+                    <td>Grandma Benysenberry Spread</td>
+                    <td>$25.00</td>
+                    <td>20</td>
+                    <td>25.00%</td>
+                    <td>Condiments</td>
+                    <td>Grandma Kelly's Homestead</td>
+                    <td>$354.00</td>
+                </tr>
+                <tr>
+                    <td>Tofu</td>
+                    <td>$23.25</td>
+                    <td>20</td>
+                    <td>25.00%</td>
+                    <td>Product</td>
+                    <td>Mayumi's</td>
+                    <td>$348.75</td>
+                </tr>
+                <tr>
+                    <td>teatime Chocolate Bisciuts</td>
+                    <td>$9.20</td>
+                    <td>20</td>
+                    <td>25.00%</td>
+                    <td>Confiment</td>
+                    <td>Speciality Biscuits.Ltd</td>
+                    <td>$69.00</td>
+                </tr>
+            </table>
+            <hr>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="color: grey;">Avg:$19.15</td>
+                    <td style="color:grey;">Sum:50</td>
+                    <td style="color:grey;">Avg:25.00%</td>
+                    <td></td>
+                    <td></td>
+                    <td style="color: grey;">Sum:$122.00</td>
+                </tr>
+            </table>
+        </div> <br>
+        <div style="display: flex;gap: 55rem;align-items:center ;">
+            <span>
+                <label for="shname">Ship Name</label>
+                <input id="shname" type="text"><br><br>
+
+                <label for="shvia">Ship via</label>
+                <input id="shvia" type="text"><br><br>
+            </span>
+            <span>
+                <p>Subtotal:$792.75</p>
+                <p>Freight:$38.28</p>
+                <p>Total:$831.03</p>
+            </span>
+        </div>
+        <hr>
+        <div style="display: flex;gap: 55rem;align-items: center;">
+            <p style="color: #a5acb9;">*-indicate a required field</p>
+            <h>
+                <button>Ok</button>
+                <button>Delete</button>
+                <button>Cancel</button>
+            </h>
+        </div>
+    </form>
+
+
+    <a href="#"><i class="fa-sharp fa-light fa-image"></i></a>
+    <i class="fa-sharp fa-light fa-star"></i>
+    <i class="fa-duotone fa-gift fa-2xl" style="--fa-primary-color: #a5acb9; --fa-secondary-color: #a5acb9;"></i>
+</body>
+
+</html>

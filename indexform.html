@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column {
+            display: flex;
+        }
+
+        #one {
+            
+            width: 50%; 
+             text-align: right; 
+        }
+
+        #two {
+            text-align:right;
+            width: 50%; 
+            /* background-color: blue; */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form style="border-style: solid; border-color: blueviolet; width: 80%;">
+
+
+        <h1>BILLING ADDRESS-BLUE NILE</h1>
+        <p style="color:red;">*Please enter a valid zip code for your region.</p>
+        <p style="padding:10px;background-color:aliceblue;">Would you like to create a Blue Nile Account and store this
+            information? 
+            <input id="yes" type="radio" name="f">
+            <label for="yes">Yes</label>
+            <input  id="Noo" type="radio" name="f" checked>
+            <label for="Noo">No</label>
+        </p>
+        <div class="column">
+            <div id="one">
+                <label for="fname">*First Name</label>
+                <input id="fname" type="text" style="width: 60%;"><br><br>
+                <label for="lname"> *Last Name</label>
+                <input id="lname" type="Last name" style="width: 60%;"><br><br>
+                <label for="com">*Company</label>
+                <input id="com" type="company" style="width: 60%;"><br>
+                <p style="display: flex;justify-content: right;">
+                <label for="pho">*Phone</label>
+                <input id="pho" type="number" placeholder="981000000" style="width:160px;"> 
+                <input type="number"
+                    id="ext" style="width: 100px;" >
+                    <a href="#" style="color:blue;font-size:10px;">Int <br>Number?</a>
+                </p>
+                    
+                    
+                <label for="pho" style="font-size:15px ;"> Phone Number</label>
+                <label for="ext" style="font-size:15px ;"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Ext&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label><br>
+            
+                <label for="e-mail">*E-mail</label>
+                <input id="e-mail" label for="e-mail" type="text" placeholder="ddfd@gmail.com" style="width: 60%;"><br><br>
+                <label for="Re-Type" style="font-size: 14px;">*Re-Type E-mail</label>
+                <input type="Email" id="Re-Type"  placeholder="ddfd@gmail.com" style="width: 60%;"><br>
+                <i>Enter an address where we can send an e-mail<br>conforming your order</i>
+            </div>
+            <div id="two">
+                <label for="add">*Address</label>
+                <input id="add" type="Address" style="width: 60%;"><br><br>
+                <label for="cit">*City</label>
+                <input id="cit" type="City" style="width: 60%;"><br><br>
+                <label for="sta">*State</label>
+                <input id="sta" type="State;" style="width: 40%;">
+                <select>
+                    <option value="aaaaa">aaaaa</option>
+                    <option value="abbbb">bbbbb</option>
+                    <option value="ccccc">ccccc</option>
+                </select>&emsp;&emsp;<br><br>
+
+                <label for="zip" style="color: red;">*Zip Code</label>
+                <input id="zip" type="text" style="width: 60%;"><br><br>
+                <label for="cont">*Country</label>
+                <input id="cont" type="country"style="width: 60%;"><br><br>
+                *Address Type
+                <input id="ho" type="radio" name="b">
+                <label for="ho">Home</label>
+                <input id="bu" type="radio" name="b">
+                <label for="bu">Business</label>&emsp;&emsp;&emsp;
+            </div>
+        </div>
+        <p>Are you shipping this order to your biling address
+            <input id="ye" type="radio" name="a" checked>
+            <label for="ye">Yes</label>
+            <input id="no" type="radio" name="a">
+            <label for="no">No</label>
+        </p>
+    </form>
+
+</body>
+
+</html>
